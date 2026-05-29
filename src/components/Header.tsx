@@ -1,5 +1,7 @@
 import Link from "next/link";
 
+// sem props pois ela sera fixa
+
 export default function Header() {
   return (
     // header-contorno: Fundo bege claro cobrindo toda a largura
