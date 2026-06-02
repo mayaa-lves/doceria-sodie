@@ -1,5 +1,7 @@
 "use client"
 import Image from "next/image"
+import Autoplay from "embla-carousel-autoplay"
+import React from "react"
 
 import {
   Carousel,
@@ -15,15 +17,19 @@ const carrosselImagens = [
     {src:"/carrossel/banner3.png", alt:"Bolo de Morango"},
 ]
 
+
 export default function Carrossel() {
+  // tempo para o carrossel avançar automaticamente
+  const plugin = React.useRef(
+      Autoplay({ delay: 4000, stopOnInteraction: false })
+    )
   return (
-    // 1. Carousel agora ocupa a largura total da tela, com margem vertical para respirar
-    <Carousel className="w-full max-w-full py-4 relative group">
+    // 1. Carousel 
+    <Carousel className="w-full max-w-full py-4 relative group" plugins={[plugin.current]}>
       <CarouselContent>
         {carrosselImagens.map((imagem, index) => (
             <CarouselItem key={index}> 
                 
-                {/* Alterado aqui: Altura maior e responsiva para valorizar a imagem */}
                 <div className="relative w-full h-[350px] sm:h-[450px] md:h-[520px] overflow-hidden">
                     <Image
                     src={imagem.src}

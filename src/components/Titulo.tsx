@@ -1,4 +1,3 @@
-import Link from "next/link";
 
 interface TituloProps {
     titulo_pagina: string;

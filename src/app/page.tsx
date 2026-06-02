@@ -1,6 +1,8 @@
 import Header from "@/components/Header";
 import Titulo from "@/components/Titulo";
 import Carrossel from "@/components/Carrossel";
+import CardapioGeral from "@/components/CardapioGeral";
+import Footer from "@/components/Footer";
 
 
 export default function Home() {
@@ -14,7 +16,10 @@ export default function Home() {
         />
         <section id="produtosGeral" className="w-full bg-[#F9F6F0] min-h-[85vh] flex flex-col items-center justify-center p-6 text-center">
             <Carrossel />
+            <CardapioGeral />
+            <Footer />
         </section>
+        
     </div>
   )
 }
