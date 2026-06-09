@@ -6,16 +6,16 @@ export default function Footer() {
     return (
         <footer className="w-full bg-[#EAE2D5] flex flex-col">
             
-            {/* 1. A faixa marrom */}
-            <div className="w-full h-8 bg-[#3D251A] w-fuul"></div>
+            {/* faixa marrom */}
+            <div className="w-full h-8 bg-[#3D251A] "></div>
 
-            {/* Container do conteúdo com limite de largura e centralizado */}
+            {/* Container do conteúdo */}
             <div className="w-full max-w-7xl mx-auto px-6 py-10 flex flex-col md:flex-row items-center justify-between gap-6">
                 
-                {/* 2. Área da Logo Sodiê */}
+                {/* Logo Sodiê */}
                 <div className="flex-shrink-0">
                     <Image 
-                        src="/logo/logo.png" // Certifique-se de ter a logo circular marrom aqui
+                        src="/logo/logo.png" 
                         alt="Sodiê Doces" 
                         width={90} 
                         height={90} 
@@ -23,25 +23,25 @@ export default function Footer() {
                     />
                 </div>
 
-                {/* 3. Menu de Navegação Horizontal com Divisores */}
+                {/*  Menu de Navegação */}
                 <nav className="text-[#5C3D2E] font-medium text-sm md:text-base">
                     <ul className="flex flex-wrap items-center justify-center gap-x-4 gap-y-2">
                         
                         <li>
-                            <Link href="#" className="hover:text-[#3D251A] transition-colors">A Sodiê</Link>
+                            <Link href="/#" className="hover:text-[#3D251A] transition-colors">A Sodiê</Link>
                         </li>
                         
                         {/* Divisor Vertical */}
                         <span className="text-[#D6CBB9] hidden sm:inline">|</span>
 
-                        {/* Link de Produtos com o Dropdown Ativo */}
+                        {/* Link de Produtos */}
                         <li className="relative group cursor-pointer">
                             <div className="flex items-center gap-1 hover:text-[#3D251A] transition-colors">
                                 <Link href="/produtos">Produtos</Link>
                                 <span className="text-xs transition-transform group-hover:rotate-180">▲</span>
                             </div>
 
-                            {/* Dropdown que abre para CIMA (bottom-full) para não sumir no rodapé */}
+                            {/* Dropdown que abre para CIMA */}
                             <div className="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 w-48 bg-[#E2D8C9] rounded-xl shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50 overflow-hidden">
                                 <ul className="flex flex-col py-1 text-[#5C3D2E] text-sm text-left">
                                     <li><Link href="/produtos/bolos" className="block px-4 py-2 hover:bg-[#D6CBB9] transition-colors">Bolos</Link></li>
@@ -76,7 +76,7 @@ export default function Footer() {
                     </ul>
                 </nav>
 
-                {/* 4. Ícones das Redes Sociais no canto direito */}
+                {/*  Redes Sociais */}
                 <div className="flex items-center gap-4">
                     <Link href="#" className="opacity-80 hover:opacity-100 transition-opacity">
                         <Image 

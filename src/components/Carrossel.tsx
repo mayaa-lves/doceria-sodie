@@ -24,7 +24,7 @@ export default function Carrossel() {
       Autoplay({ delay: 4000, stopOnInteraction: false })
     )
   return (
-    // 1. Carousel 
+    // Carousel 
     <Carousel className="w-full max-w-full py-4 relative group" plugins={[plugin.current]}>
       <CarouselContent>
         {carrosselImagens.map((imagem, index) => (
@@ -44,7 +44,7 @@ export default function Carrossel() {
         ))}
       </CarouselContent>
       
-      {/* 3. Botões de navegação posicionados de forma elegante nas extremidades */}
+      {/* Botões de navegação */}
       <CarouselPrevious className="left-4 opacity-0 group-hover:opacity-100 transition-opacity" />
       <CarouselNext className="right-4 opacity-0 group-hover:opacity-100 transition-opacity" />
     </Carousel>

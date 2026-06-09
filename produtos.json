@@ -1,0 +1,162 @@
+[
+  {
+    "id": 1,
+    "nome": "Bombom de Brigadeiro com Cereja",
+    "src": "/fotos/bombom_de_brigadeiro-cereja.png",
+    "alt": "Bombom de Brigadeiro com Cereja",
+    "ingrediente": "frutas",
+    "destaque": false
+  },
+  {
+    "id": 2,
+    "nome": "Bombom de Café",
+    "src": "/fotos/bombom_de_cafe.png",
+    "alt": "Bombom de Café",
+    "ingrediente": "outros",
+    "destaque": false
+  },
+  {
+    "id": 3,
+    "nome": "Bombom de Coco",
+    "src": "/fotos/bombom_de_coco.png",
+    "alt": "Bombom de Coco",
+    "ingrediente": "coco",
+    "destaque": false
+  },
+  {
+    "id": 4,
+    "nome": "Bombom de Limão",
+    "src": "/fotos/bombom_de_limao.png",
+    "alt": "Bombom de Limão",
+    "ingrediente": "frutas",
+    "destaque": true
+  },
+  {
+    "id": 5,
+    "nome": "Bombom de Maracujá",
+    "src": "/fotos/bombom_de_maracuja.png",
+    "alt": "Bombom de Maracujá",
+    "ingrediente": "frutas",
+    "destaque": true
+  },
+  {
+    "id": 6,
+    "nome": "Brigadeiro",
+    "src": "/fotos/brigadeiro.png",
+    "alt": "Brigadeiro Tradicional",
+    "ingrediente": "chocolate",
+    "destaque": true
+  },
+  {
+    "id": 7,
+    "nome": "Brigadeiro Crispy com NUTELLA®",
+    "src": "/fotos/brigadeiro-Crispy.png",
+    "alt": "Brigadeiro Crispy com NUTELLA®",
+    "ingrediente": "avela",
+    "destaque": true
+  },
+  {
+    "id": 8,
+    "nome": "Brigadeiro de Morango",
+    "src": "/fotos/brigadeiro_de_morango.png",
+    "alt": "Brigadeiro de Morango",
+    "ingrediente": "frutas",
+    "destaque": false
+  },
+  {
+    "id": 9,
+    "nome": "Brigadeiro Gourmet Ao Leite",
+    "src": "/fotos/ao-leite.png",
+    "alt": "Brigadeiro Gourmet Ao Leite",
+    "ingrediente": "chocolate",
+    "destaque": false
+  },
+  {
+    "id": 10,
+    "nome": "Brigadeiro Gourmet de Café",
+    "src": "/fotos/cafe.png",
+    "alt": "Brigadeiro Gourmet de Café",
+    "ingrediente": "outros",
+    "destaque": false
+  },
+  {
+    "id": 11,
+    "nome": "Brigadeiro Gourmet de Churros",
+    "src": "/fotos/churros.png",
+    "alt": "Brigadeiro Gourmet de Churros",
+    "ingrediente": "outros",
+    "destaque": false
+  },
+  {
+    "id": 12,
+    "nome": "Brigadeiro Gourmet de Frutas Vermelhas",
+    "src": "/fotos/frutas-vermelhas.png",
+    "alt": "Brigadeiro Gourmet de Frutas Vermelhas",
+    "ingrediente": "frutas",
+    "destaque": false
+  },
+  {
+    "id": 13,
+    "nome": "Brigadeiro Gourmet de Leite Ninho® com Avelã",
+    "src": "/fotos/ninho-com-avela.png",
+    "alt": "Brigadeiro Gourmet de Leite Ninho® com Avelã",
+    "ingrediente": "avela",
+    "destaque": false
+  },
+  {
+    "id": 14,
+    "nome": "Brigadeiro Gourmet de Pistache",
+    "src": "/fotos/pistache.png",
+    "alt": "Brigadeiro Gourmet de Pistache",
+    "ingrediente": "outros",
+    "destaque": false
+  },
+  {
+    "id": 15,
+    "nome": "Brigadeiro Gourmet Intenso",
+    "src": "/fotos/brigadeiro_intenso.png",
+    "alt": "Brigadeiro Gourmet Intenso",
+    "ingrediente": "chocolate",
+    "destaque": false
+  },
+  {
+    "id": 16,
+    "nome": "Brigadeiro Nevado com NUTELLA®",
+    "src": "/fotos/Brigadeiro-Nevado-com-Nutella.png",
+    "alt": "Brigadeiro Nevado com NUTELLA®",
+    "ingrediente": "avela",
+    "destaque": false
+  },
+  {
+    "id": 17,
+    "nome": "Brigadeiro Sabor Morango Zero Açúcar",
+    "src": "/fotos/brigadeiro_morango_zero.png",
+    "alt": "Brigadeiro Sabor Morango Zero Açúcar",
+    "ingrediente": "frutas",
+    "destaque": false
+  },
+  {
+    "id": 18,
+    "nome": "Brigadeiro Zero Açúcar",
+    "src": "/fotos/brigadeiro_zero_açucar.png",
+    "alt": "Brigadeiro Zero Açúcar",
+    "ingrediente": "chocolate",
+    "destaque": false
+  },
+  {
+    "id": 19,
+    "nome": "Cajuzinho",
+    "src": "/fotos/cajuzinho.png",
+    "alt": "Cajuzinho",
+    "ingrediente": "outros",
+    "destaque": false
+  },
+  {
+    "id": 20,
+    "nome": "Camafeu de Nozes Banhado no Chocolate ao Leite",
+    "src": "/fotos/Camafeu_de_Nozes.png",
+    "alt": "Camafeu de Nozes Banhado no Chocolate ao Leite",
+    "ingrediente": "chocolate",
+    "destaque": false
+  }
+]
