@@ -4,11 +4,9 @@ import Carrossel from "@/components/Carrossel";
 import CardProduto from "@/components/CardProduto";
 import Footer from "@/components/Footer";
 
-// Importando o banco de dados JSON 
-import produtosJson from "../../produtos.json";
-import CardapioGeral from "@/components/CardapioGeral";
 
-// Tipagem para garantir que o TypeScript entenda o JSON importado
+import produtosJson from "../../produtos.json";
+
 interface DoceProps {
   id: number;
   nome: string;
@@ -19,7 +17,7 @@ interface DoceProps {
 }
 
 export default function Home() {
-  //  filtro dos destaques
+  // Filtro de destaques feito diretamente aqui na Home antes de mandar pro componente
   const produtosEmDestaque = (produtosJson as DoceProps[]).filter(
     (produto) => produto.destaque === true
   );
@@ -36,23 +34,14 @@ export default function Home() {
         <Carrossel />
         
         <section id="produtosGeral" className="w-full bg-[#F9F6F0] py-12 text-center flex flex-col items-center">
-            
             <div className="mb-10 text-center">
               <h2 className="text-[#3D251A] font-sans font-black text-2xl md:text-3xl">
                 Os Mais Pedidos da Semana
               </h2>
-              <p className="text-[#5C3E2E] text-sm mt-2 max-w-md mx-auto">
-                Nossos campeões de vendas separados especialmente para você se apaixonar.
-              </p>
             </div>
 
-            {/* listra filtrada */}
+            {/* Enviando a lista filtrada e tipada */}
             <CardProduto itens={produtosEmDestaque} />
-            
-            
-        </section>
-        <section id="cardapioGeral" className="w-full min-h-[95vh] bg-[#F9F6F0] py-12 text-center flex flex-col items-center">
-          <CardapioGeral />
         </section>
         
         <Footer />
